@@ -1,0 +1,50 @@
+!import "ex-common"
+
+:::companyName
+]companyName2
+]companyName2 " Co."
+]companyName2 " Corp."
+]companyName2 ", Inc."
+]companyName2 ", LLC"
+]companyName2 ", Ltd."
+
+::companyName2
+]"Acme"
+10]lastName companyName3
+10]companyName4 companyName3
+5]acronym companyName3
+2]acronym
+3]longacronym
+
+::companyName4
+]"Associated"
+]"United"
+]"Amazing"
+]"Yellow"
+]"Blue"
+]"Red"
+]"Green"
+]"Orange"
+]"Purple"
+]"Mediocre"
+]"Distributed"
+]"Disorganized"
+]"Unlikely"
+]"Cheap"
+]"Precipitated"
+
+::companyName3
+]" Plastics"
+]" Manufacturing"
+]" Records"
+]" Music"
+]" Systems"
+]" Entertainment"
+]" Airways"
+]" Games"
+]" Sports"
+]" Networks"
+]" Technologies"
+]" Communications"
+]" Widgets"
+]" Solutions"

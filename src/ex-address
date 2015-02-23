@@ -1,0 +1,126 @@
+!import "ex-common"
+
+:::streetAddress
+] houseNumber " " streetName aptNumber
+
+::houseNumber
+] digit12
+10] digit19 digit09
+20] digit19 digit09 digit09
+5 ] digit12 digit09 digit09 digit09
+
+::streetName
+] "N. " stName
+] "S. " stName
+] "W. " avName
+] "E. " avName
+6] stName
+6] avName
+
+::stName
+]"Elm St."
+]"Cherry St."
+]"Oak St."
+]"Peach St."
+]"Park St."
+]"Main St."
+]"Pine St."
+]"Maple St."
+]"Cedar St."
+]"Lake St."
+]"Hill St."
+1.5]"First St."
+2]"Second St."
+1.5]"Third St."
+1.4]"Fourth St."
+1.3]"Fifth St."
+1.2]"Sixth St."
+1.1]"Seventh St."
+]"Eighth St."
+]"Ninth St."
+]"Tenth St."
+]"Eleventh St."
+]"Twelfth St."
+.6]digit19 "0th St."
+.5]digit19 "1st St."
+.5]digit19 "2nd St."
+.5]digit19 "3rd St."
+.5]digit19 "4th St."
+.5]digit19 "5th St."
+.5]digit19 "6th St."
+.5]digit19 "7th St."
+.5]digit19 "8th St."
+.5]digit19 "9th St."
+.1]digit19 digit09 "0th St."
+.1]digit19 digit09 "1st St."
+.1]digit19 digit09 "2nd St."
+.1]digit19 digit09 "3rd St."
+.1]digit19 digit09 "4th St."
+.1]digit19 digit09 "5th St."
+.1]digit19 digit09 "6th St."
+.1]digit19 digit09 "7th St."
+.1]digit19 digit09 "8th St."
+.1]digit19 digit09 "9th St."
+
+::avName
+]"Washington Av."
+]"Adams Av."
+]"Jefferson Av."
+]"Madison Av."
+]"Monroe Av."
+]"Jackson Pl."
+]"Van Buren Rd."
+]"Harrison Dr."
+]"Tyler Pl."
+]"Polk Av."
+]"Taylor Ln."
+]"Fillmore Ln."
+]"Franklin Rd."
+]"Pierce Pl."
+]"Buchanan Av."
+]"Lincoln Av."
+]"Johnson Av."
+]"Grant St."
+]"Hayes Pl."
+]"Garfield Ln."
+]"Arthur Rd."
+]"Cleveland Av."
+]"Harrison Ct."
+]"Cleveland Dr."
+]"McKinley Rd."
+]"Roosevelt Av."
+]"Taft St."
+]"Wilson Rd."
+]"Harding Ct."
+]"Coolidge Ct."
+]"Hoover Ln."
+]"Roosevelt Ln."
+]"Truman Pkwy."
+]"Eisenhower St."
+]"Kennedy Pl."
+]"Johnson Rd."
+]"Ford Av."
+]"Carter Rd."
+]"Rote Rd."
+]"Peach Ct."
+]"Park Av."
+]"Maple Pkwy."
+]"Cedar Rd."
+]"Lake Cir."
+]"Hill Pl."
+
+::aptNumber
+80]
+13] " #1"
+11] " #2"
+5] " #3"
+6] " #4"
+2] " #5"
+2] " #6"
+2] " #7"
+2] " #8"
+] " #9"
+3]" Apt. A"
+2]" Apt. B"
+]" Apt. C"
+]" Apt. D"

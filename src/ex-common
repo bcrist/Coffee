@@ -1,0 +1,104 @@
+
+:::universityName
+5]lastName " University"
+3]lastName " College"
+]lastName " Technical Institute"
+
+:::longacronym
+]letter letter letter letter
+]letter letter letter letter letter
+
+:::acronym
+]letter letter letter
+]letter letter letter letter
+
+::letter
+9]"A"
+2]"B"
+2]"C"
+4]"D"
+12]"E"
+2]"F"
+3]"G"
+2]"H"
+9]"I"
+1]"J"
+1]"K"
+4]"L"
+2]"M"
+6]"N"
+8]"O"
+2]"P"
+1]"Q"
+6]"R"
+4]"S"
+6]"T"
+4]"U"
+2]"V"
+2]"W"
+1]"X"
+1]"Y"
+1]"Z"
+
+::digit09
+5]"0"
+]"1"
+2]"2"
+]"3"
+2]"4"
+5]"5"
+2]"6"
+]"7"
+2]"8"
+]"9"
+
+::digit19
+]"1"
+2]"2"
+]"3"
+2]"4"
+5]"5"
+2]"6"
+]"7"
+2]"8"
+]"9"
+
+::digit12
+3]"1"
+]"2"
+
+::: Year1970To2009
+   ] "197" Integer0To9
+   ] "198" Integer0To9
+   ] "199" Integer0To9
+   ] "200" Integer0To9
+
+::: ArbitraryLargeInteger
+   ] Integer1To9 "," Integer0To9 Integer0To9 Integer0To9
+   ] Integer1To9 Integer0To9 "," Integer0To9 Integer0To9 Integer0To9
+   ] Integer1To9 Integer0To9 Integer0To9 "," Integer0To9 Integer0To9 Integer0To9
+   ] Integer1To9 "," Integer0To9 Integer0To9 Integer0To9 "," Integer0To9 Integer0To9 Integer0To9
+  2] Integer1To9 ",000"
+  2] Integer1To9 Integer0To9 ",000"
+   ] Integer1To9 Integer0To9 Integer0To9 ",000"
+  3] Integer1To9 " Million"
+  2] Integer1To9 Integer0To9 " Million"
+   ] Integer1To9 Integer0To9 Integer0To9 " Million"
+  4] Integer1To9 " Billion"
+  2] Integer1To9 " Trillion"
+   ] Integer1To9 " Quadrillion"
+
+:: Integer1To9
+   ] "1"
+   ] "2"
+   ] "3"
+   ] "4"
+   ] "5"
+   ] "6"
+   ] "7"
+   ] "8"
+   ] "9"
+
+:: Integer0To9
+   ] "0"
+  9] Integer1To9

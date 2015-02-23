@@ -1,0 +1,80 @@
+:::NameFromMorphemes
+1] syl
+8] syl syl
+5] syl syl syl
+0.5] syl syl syl syl
+
+:: syl
+4] CV optionalFinalC optionalS
+2] optionalC diphthong optionalC optionalS
+1.2] optionalS optionalPTK "r" vowel optionalFinalC optionalS
+.6] optionalS optionalPTK "r" diphthong optionalC optionalS
+] optionalS optionalPK "l" vowel optionalFinalC optionalS
+.5] optionalS optionalPK "l" diphthong optionalC optionalS
+
+:: optionalC
+] consonant
+2]
+
+:: optionalFinalC
+15] consonant
+2] "ght"
+2] "ng"
+] "gh"
+] "ck"
+2] "st"
+] "ld"
+] "lt"
+] "lf"
+] "ly"
+10]
+
+:: CV
+20] optionalC vowel
+] "qu"
+
+:: optionalS
+]"s"
+2]
+
+:: optionalPTK
+]"p"
+1.5]"t"
+.5]"k"
+]"c"
+4]
+
+:: optionalPK
+]"p"
+.5]"k"
+]"c"
+3]
+
+:: consonant
+5]"b" 5]"c" 5]"d" 5]"f"
+3]"g" 4]"h" 2]"j" 4]"k"
+6]"l" 5]"m" 4]"n" 3]"p"
+6]"r" 2]"s" 4]"t" 2]"v"
+3]"w"  ]"x"  ]"y"  ]"z"
+3]"th"
+3]"ch"
+
+
+:: vowel
+4]"a"
+5]"e"
+3]"i"
+3]"o"
+2]"u"
+.5]"y"
+
+:: diphthong
+4]"ou"
+7]"oo"
+3]"oi"
+8]"ee"
+5]"ei"
+5]"ie"
+4]"ai"
+6]"ea"
+]"ae"
